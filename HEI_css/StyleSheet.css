@@ -1,0 +1,150 @@
+<style>
+.grid-container{
+	display: grid;
+	grid-gap: 5px;
+	background-color: #2196F3;
+	padding: 5px;	
+}
+.grid-item
+{
+	background-color: rgba(255,255,255,0.8);
+	text-align: center;
+	padding: 20px;
+	font-size: 30px;
+}
+.item1
+{
+	grid-column: 1 / span 2;
+	grid-row: 1;
+}
+.item2
+{
+	grid-column:3;
+	grid-row: 1 / span 2;
+}
+.item5
+{
+	grid-column: 1 / span 3;
+	grid-row: 3;
+}
+navbar {
+	position:sticky;
+}
+
+.nav-item .customItemNav{
+	color: #000000;
+}
+
+body {
+	margin:0;
+	padding:0;
+	position: relative;
+	padding-bottom: 15rem;
+	min-height: 100%;
+}
+p
+{
+	margin: 10px 0px 0px 10px;
+}
+row
+{
+	padding:0;
+	margin:0;
+}
+
+.HEIFooter 
+{ 
+	position: absolute;
+	right: 0;
+	left: 0;
+	bottom:0;
+	background-color: #000000;
+	color: #ffffff;
+	font-size: 10px;
+
+}
+
+.backgroundbase {
+	background-color: #8bb6f9;
+	
+}
+.HomeHero
+{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('../HEI_Images/StockWhiteCyborgFinger.jpg');
+	background-size:cover;
+	display:block;
+	margin:0 0 15px 0;
+	padding: 25% 0 25% 0;
+	
+	height: 50%;
+	background-position: center center;
+	/*background-attachment:fixed;*/
+	background-repeat: no-repeat;
+	position: relative;
+	
+	border-style:solid;
+	border-width: 0 0 10px 0;
+	border-color: gray;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.hero-text h2
+{
+	font-size: 50px;
+	
+}
+.emailList
+{
+	border-bottom:3px white solid;
+}
+.emailList table
+{
+	left:100%;
+}
+.emailList tr:hover
+{
+	background-color:#003387;
+}
+
+
+
+.emailLink
+{
+	font-size:13px;
+	color:#9AE4FC;
+	display:block;
+	padding:10;
+	
+	
+}
+a.emailLink:link {color:#9AE4FC;}
+a.emailLink:hover {color:#9AE4FC; text-decoration:none;}
+a.emailLink:visited{color:#9AE4FC;}
+a.emailLink .fill	{font-size:9px; text-align:left;}
+a.emailLink .fill :link{color:#919191;}
+a.emailLink .fill :hover{color:#919191;}
+a.emailLink .fill :visited{color:#919191;}
+.emailDisplay
+{
+}
+a.emailDisplay
+{
+	
+}
+
+.ccEmail{
+	font-style:italic;
+	
+}
+
+<!--- colours sets background #b8cef2 foreground	#abb9d1 navbar--->
+
+
+
